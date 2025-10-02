@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Rocca - Community Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#inicio" class="logo">
+                <img class="logo-img" src="logo.png" alt="">
+            </a>
+            <ul class="nav-links">
+                <li><a class="nav-link active" href="#inicio">Inicio</a></li>
+                <li><a class="nav-link" href="#servicios">Servicios</a></li>
+                <li><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                <li><a class="nav-link" href="#portfolio">Proyectos</a></li>
+                <li><a class="nav-link" href="#equipo">Mi equipo</a></li>
+                <li><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="theme-switcher" onclick="toggleTheme()">
+                <svg class="sun-icon" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" viewBox="0 0 24 24">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content fade-in-up">
+                    <h1>Clara Rocca</h1>
+                    <p class="hero-subtitle">Community Manager</p>
+                    <p class="hero-description">
+                        Conectando marcas con sus audiencias a través de estrategias digitales auténticas. 
+                        Ayudo a empresas y emprendimientos a construir su presencia online y 
+                        crear comunidades genuinas que impulsen su crecimiento.
+                    </p>
+                    
+                    <a href="#contacto" class="cta-button">Comenzar mi Proyecto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <div class="container">
+                <h2 class="section-title">Servicios Especializados</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <svg class="service-icon" viewBox="0 0 24 24">
+                            <path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z"/>
+                        </svg>
+                        <h3>Creación de comunidad</h3>
+                        <p>Construcción y gestión de comunidades online alrededor de tu marca, 
+                           fomentando la interacción y el engagement con tus clientes.</p>
+                    </div>
+<!--
+                    
+                    <div class="service-card">
+                        <svg class="service-icon" viewBox="0 0 24 24">
+                            <path d="M22,3H2A1,1 0 0,0 1,4V20A1,1 0 0,0 2,21H22A1,1 0 0,0 23,20V4A1,1 0 0,0 22,3M21,19H3V5H21V19M4,17H12V16H4V17M18,17H20V16H18V17M4,14H8V13H4V14M10,14H20V13H10V14M4,11H6V10H4V11M8,11H16V10H8V11M18,11H20V10H18V11M4,8H10V7H4V8M12,8H20V7H12V8Z"/>
+                        </svg>
+                        <h3>Estrategia Digital</h3>
+                        <p>Desarrollo de estrategias de comunicación digital personalizadas para tu marca, 
+                           adaptadas a tu público objetivo y objetivos de negocio específicos.</p>
+                    </div>
+                    
+                    
+                    <div class="service-card">
+                        <svg class="service-icon" viewBox="0 0 24 24">
+                            <path d="M4,4H7L9,2H15L17,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9Z"/>
+                        </svg>
+                        <h3>Fotografía Profesional</h3>
+                        <p>Servicio de fotografía especializada para documentar productos, servicios, 
+                           eventos y contenido corporativo con calidad profesional.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <svg class="service-icon" viewBox="0 0 24 24">
+                            <path d="M16,6L18.29,8.29L13.41,13.17L9.41,9.17L2,16.59L3.41,18L9.41,12L13.41,16L19.71,9.71L22,12V6H16Z"/>
+                        </svg>
+                        <h3>Diseño Web</h3>
+                        <p>Desarrollo de sitios web modernos y funcionales para empresas y emprendimientos, 
+                           optimizados para conversión y experiencia de usuario.</p>
+                    </div>
+                    -->
+                    <div class="service-card">
+                        <svg class="service-icon" viewBox="0 0 24 24">
+                            <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                        </svg>
+                        <h3>Gestión de Redes Sociales</h3>
+                        <p>Manejo integral de perfiles en Instagram, Facebook, LinkedIn y TikTok, 
+                           con contenido auténtico que conecte con tu audiencia objetivo.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <svg class="service-icon" viewBox="0 0 24 24">
+                            <path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z"/>
+                        </svg>
+                        <h3>Creación de Contenido</h3>
+                        <p>Producción de contenido visual y audiovisual de alta calidad: 
+                           fotografía, videos, infografías y storytelling que capture la esencia de tu marca.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Conectando Marcas con Audiencias</h2>
+                        <p>
+                            🌱 De las raíces rurales al mundo digital 🌾
+                        </p>
+                        <p>
+                            Crecí en el campo y sigo formándome en Medicina Veterinaria, pero descubrí en lo digital una herramienta poderosa para visibilizar proyectos.
+
+                            Todo empezó mostrando la cabaña familiar, y así nació mi pasión por crear contenido.
+                        </p>
+                        <p>
+                            Hoy combino empatía, comunicación, estética y formación en redes para ayudarte a construir tu identidad digital con autenticidad.
+
+                            Trabajo con un enfoque práctico y, si lo necesitás, con un equipo profesional que nos permite ofrecerte soluciones integrales.
+                        </p>
+                        <p>¿Querés hacer crecer tu proyecto o conectar con más personas? Estoy acá para ayudarte.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="perfil.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Portfolio / Cuentas Manejadas -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Cuentas que Gestiono</h2>
+                <p class="team-subtitle">
+                    Proyectos actuales donde estoy construyendo comunidades y 
+                    estrategias digitales.
+                </p>
+                
+                <div class="portfolio-grid">
+                    <!-- Cuenta 1 - Ejemplo Gastronomía -->
+                    <a href="https://www.instagram.com/decovitro.ok" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+                        <div class="portfolio-image">
+                            <img src="deco.webp" alt="Cuenta Instagram">
+                            <div class="instagram-badge">
+                                <svg class="instagram-icon" viewBox="0 0 24 24">
+                                    <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Deco - Vitraux</h3>
+                            <p class="portfolio-username">@decovitro.ok</p>
+                            <p class="portfolio-description">
+                                Restaurante vegano enfocado en ingredientes orgánicos y recetas saludables.
+                            </p>
+                            <div class="portfolio-stats">
+                                <div class="stat">
+                                    <span class="stat-number">244</span>
+                                    <span class="stat-label">Seguidores</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">4.2%</span>
+                                    <span class="stat-label">Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Cuenta 2 - Ejemplo Fitness -->
+                    <a href="https://www.instagram.com/duaboutique.of/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+                        <div class="portfolio-image">
+                            <img src="dua.webp" alt="Cuenta Instagram">
+                            <div class="instagram-badge">
+                                <svg class="instagram-icon" viewBox="0 0 24 24">
+                                    <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>DÚA - Carteras y accesorios</h3>
+                            <p class="portfolio-username">@duaboutique.of</p>
+                            <p class="portfolio-description">
+                                Centro de entrenamiento funcional con enfoque en bienestar integral.
+                            </p>
+                            <div class="portfolio-stats">
+                                <div class="stat">
+                                    <span class="stat-number">51</span>
+                                    <span class="stat-label">Seguidores</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">5.1%</span>
+                                    <span class="stat-label">Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Cuenta 3 - Ejemplo Moda -->
+                    <a href="https://www.instagram.com/cabanalahuellaangus/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+                        <div class="portfolio-image">
+                            <img src="la huella.webp" alt="Cuenta Instagram">
+                            <div class="instagram-badge">
+                                <svg class="instagram-icon" viewBox="0 0 24 24">
+                                    <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Cabaña la Huella</h3>
+                            <p class="portfolio-username">@cabanalahuellaangus</p>
+                            <p class="portfolio-description">
+                                Tienda de moda sostenible con diseños exclusivos y conscientes.
+                            </p>
+                            <div class="portfolio-stats">
+                                <div class="stat">
+                                    <span class="stat-number">3.6K</span>
+                                    <span class="stat-label">Seguidores</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">6.3%</span>
+                                    <span class="stat-label">Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Cuenta 4 - Ejemplo Emprendimiento -->
+                    <a href="https://www.instagram.com/ateneoangus/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+                        <div class="portfolio-image">
+                            <img src="angus.webp" alt="Cuenta Instagram">
+                            <div class="instagram-badge">
+                                <svg class="instagram-icon" viewBox="0 0 24 24">
+                                    <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>AnGus Ateneo</h3>
+                            <p class="portfolio-username">@ateneoangus</p>
+                            <p class="portfolio-description">
+                                Agencia de diseño especializada en branding y estrategia visual.
+                            </p>
+                            <div class="portfolio-stats">
+                                <div class="stat">
+                                    <span class="stat-number">7.1K</span>
+                                    <span class="stat-label">Seguidores</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">3.8%</span>
+                                    <span class="stat-label">Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="team">
+            <div class="container">
+                <h2 class="section-title">Mi Equipo de Trabajo</h2>
+                <p class="team-subtitle">
+                    Trabajamos juntos para ofrecerte soluciones integrales que potencien 
+                    tu presencia digital y hagan crecer tu marca.
+                </p>
+                
+                <div class="team-grid">
+                    <!-- Lucía Rocca -->
+                    <a href="https://www.instagram.com/visualuv_/" class="team-member-link" target="_blank" rel="noopener noreferrer">
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="visual.webp" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h3>Lucía Rocca</h3>
+                                <p class="member-role">Fotógrafa Profesional</p>
+                                <p class="member-description">
+                                    Especializada en fotografía de productos, eventos corporativos y retratos. 
+                                    Captura la esencia visual de cada proyecto con un estilo único y profesional.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Danilo Molina -->
+                    <a href="https://danilomolina.cl/" class="team-member-link" target="_blank" rel="noopener noreferrer">
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="danilo.webp" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h3>Danilo Molina</h3>
+                                <p class="member-role">Marketing Digital</p>
+                                <p class="member-description">
+                                    Experto en estrategias de marketing digital, campañas publicitarias y análisis de datos. 
+                                    Optimiza cada acción para maximizar el retorno de inversión.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Teo Cicciari -->
+                    <a href="https://teocicciari.com.ar" class="team-member-link" target="_blank" rel="noopener noreferrer">
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="teo.webp" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h3>Teo Cicciari</h3>
+                                <p class="member-role">Desarrollador Web</p>
+                                <p class="member-description">
+                                    Desarrollador especializado en sitios web modernos y funcionales. 
+                                    Crea experiencias digitales optimizadas para conversión y usabilidad.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Hablemos de tu Proyecto</h2>
+                <p class="hero-subtitle">
+                    ¿Tenes un proyecto que necesita presencia digital? 
+                    Contame y veamos si puedo ayudarte.
+                </p>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/5492344400103?text=Hola%20Clara,%20me%20interesa%20hablar%20sobre%20mi%20proyecto%20digital" 
+                       class="whatsapp-button" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                        </svg>
+                        Contactar por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Clara Rocca - Community Manager. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
